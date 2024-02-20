@@ -1,0 +1,16 @@
+.btn-ins-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.btn-ins{
+    z-index: 4;
+    position:absolute;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: black;
+    color: antiquewhite;
+    border: 2px solid rgba(246, 250, 6, 0.911);
+    border-radius: 10px;
+}

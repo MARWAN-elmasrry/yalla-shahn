@@ -1,0 +1,218 @@
+html{
+    scroll-behavior: smooth;
+    color: white;
+}
+:root {
+    --main-color: #ff8705;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+}
+header{
+    background-color: rgba(255, 255, 255, 0.678);
+    backdrop-filter: blur(10px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    /* width: 100%; */
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container img{
+    width: 90px;
+}
+.links a{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+    color: var(--main-color);
+}
+.links a:hover{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.logo-g{
+    margin-top: 20px;
+    background-image: url(./images/logo2.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 3;
+}
+/* ============================ */
+.profits{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.prof-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+.prof-cont .card{
+    width: fit-content;
+    border-radius: 20px 20px 10px 10px;
+    background-color:  var(--main-color);
+}
+.prof-cont .card img {
+    width: 300px;
+    border-radius: 20px;
+}
+.prof-cont .card h3 {
+    text-align: center;
+}
+/* ========================= */
+.about{
+    background-color: var(--main-color);
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: auto;
+    border-radius: 0px 0px 0px 111px;
+}
+.about-cont{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.about-cont img{
+    border-radius: 20px;
+}
+.info-t {
+    max-width: 380px;
+    margin-right: 30px;
+}
+.info-t h1{
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.info-t p{
+    line-height: 1.7rem;
+}
+.yalla-info{
+    width: 350px;
+}
+/* ============================= */
+.btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: var(--main-color);
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: 60px;
+    border-radius: 0px 0px 111px 0px;
+}
+.btn h1{
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.btn .btn-cont{
+    display: flex;
+    justify-content: center;
+}
+.btn .btn-cont button{
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: transparent;
+}
+/* ============================== */
+.contact{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: var(--main-color);
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 70px 70px 70px 70px;   
+}
+.contact h1{
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.contact .cont-icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.contact .cont-info{
+    margin-bottom: 30px;
+}
+.contact .cont-info .phone,.email{
+    display: flex;
+    margin-bottom: 20px;
+}
+.contact .cont-info .phone p{
+    margin-left: 20px;
+    color: white;
+}
+.contact .cont-info .email a{
+    text-decoration: none;
+}
+.contact .cont-info .email a p{
+    margin-left: 20px;
+    color: white;
+}
+.contact .cont-info img{
+    width: 50px;
+}
+.contact .cont-icons{
+    display: flex;
+    justify-content: center;
+}
+.contact .cont-icons img{
+    padding: 10px;
+    width: 50px;
+}
+/* ================================= */
+footer{
+    background-color: var(--main-color);
+}
+.foot-cont{
+    display: flex;
+    justify-content: center;
+}
