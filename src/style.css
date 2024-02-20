@@ -66,18 +66,23 @@ header .container img{
 }
 .logo-g{
     margin-top: 20px;
-    background-image: url(./images/logo2.png);
-    height: 400px;
+    background-image: url(./images/Yalla-b.jpg);
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: 3;
+    z-index: 2;
 }
 /* ============================ */
 .profits{
     margin-top: 20px;
     margin-bottom: 40px;
+}
+.profits h1{
+    color: var(--main-color);
+    font-size: 40px;
+    letter-spacing: 3px;
 }
 .prof-cont {
     display: flex;
@@ -97,6 +102,7 @@ header .container img{
 }
 .prof-cont .card h3 {
     text-align: center;
+    padding: 30px;
 }
 /* ========================= */
 .about{

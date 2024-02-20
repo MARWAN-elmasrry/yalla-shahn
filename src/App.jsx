@@ -3,7 +3,6 @@ import './style.css'
 
 import logo from './images/logo2.png'
 import Yalla from './images/Yalla-Shahn-info2.png'
-import Phone from './icons/phone-call.png'
 import Email from './icons/email.png'
 import Facebook from './icons/facebook.png'
 import Insta from './icons/instagram.png'
@@ -27,18 +26,16 @@ class App extends Component {
                 <section class="logo-g"></section>
                 <div class="profits">
         <div class="container">
+            <h1>Profits</h1>
             <div class="prof-cont">
                     <div class="card">
-                    <img src={logo} alt="" /> 
-                        <h3>Profit 1</h3>
+                        <h3>1) high speed Delivery</h3>
                     </div>
                     <div class="card">
-                    <img src={logo} alt="" /> 
-                        <h3>Profit 2</h3>
+                        <h3>2) Competitive price</h3>
                     </div>
                     <div class="card">
-                    <img src={logo} alt="" /> 
-                        <h3>Profit 3</h3>
+                        <h3>3) Receiving service</h3>
                     </div>
             </div>
              </div>
@@ -68,23 +65,19 @@ class App extends Component {
                      <div class="cont-cont">
                         <h1>Contact Us</h1>
                      <div class="cont-info">
-                       <div class="phone">
-                        <img src={Phone} alt="" />
-                             <p>01061578528</p>
-                          </div>
                     <div class="email">
                         <img src={Email} alt="" />
-                        <a href="mailto:YallaShahn@gmail.com?supject=Contant"><p>YallaShahn@gamil.com</p></a>
+                        <a href="mailto:Yallashahn@gmail.com?supject=Contant"><p>Yallashahn@gamil.com</p></a>
                     </div>
                      </div>
                      <div class="cont-icons">
                     <a href="https://www.facebook.com/profile.php?id=61556526837375">
                           <img src={Facebook} />
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/yalla_shahn?igsh=ZGRlOWF0YjVva3o5">
                         <img src={Insta} alt="" />
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=+201061578528">
+                    <a href="tel:+201061578528">
                         <img src={Whats} alt="" />
                     </a>
                 </div>
