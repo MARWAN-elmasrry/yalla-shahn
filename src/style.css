@@ -192,9 +192,10 @@ header .container img{
     display: flex;
     margin-bottom: 20px;
 }
-.contact .cont-info .phone p{
+.contact .cont-info .phone a {
     margin-left: 20px;
     color: white;
+    text-decoration: none;
 }
 .contact .cont-info .email a{
     text-decoration: none;
