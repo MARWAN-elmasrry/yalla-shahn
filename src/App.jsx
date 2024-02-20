@@ -84,7 +84,7 @@ class App extends Component {
                     <a href="#">
                         <img src={Insta} alt="" />
                     </a>
-                    <a href="tel:+201061578528">
+                    <a href="whatsapp:contact=+201061578528@s.whatsapp.com&message=">
                         <img src={Whats} alt="" />
                     </a>
                 </div>
