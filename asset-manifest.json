@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/yalla-shahn/static/css/main.2d6605f6.css",
-    "main.js": "/yalla-shahn/static/js/main.98bde53c.js",
+    "main.js": "/yalla-shahn/static/js/main.8496b8e2.js",
     "static/media/Yalla-Shahn-info2.png": "/yalla-shahn/static/media/Yalla-Shahn-info2.b4785e96471bdadcf48c.png",
     "static/media/logo2.png": "/yalla-shahn/static/media/logo2.aacd7fa2add5cb9ab462.png",
     "index.html": "/yalla-shahn/index.html",
     "main.2d6605f6.css.map": "/yalla-shahn/static/css/main.2d6605f6.css.map",
-    "main.98bde53c.js.map": "/yalla-shahn/static/js/main.98bde53c.js.map"
+    "main.8496b8e2.js.map": "/yalla-shahn/static/js/main.8496b8e2.js.map"
   },
   "entrypoints": [
     "static/css/main.2d6605f6.css",
-    "static/js/main.98bde53c.js"
+    "static/js/main.8496b8e2.js"
   ]
 }
